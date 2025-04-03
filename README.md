@@ -5,7 +5,9 @@
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Student5427_ctest2&metric=code_smells)](https://sonarcloud.io/dashboard?id=Student5427_ctest2)
 
 
-# План тестирования:
+
+# План тестирования: 
+
 # Аттестационное тестирование
 <ol>
    <li>
