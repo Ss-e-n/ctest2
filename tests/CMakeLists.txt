@@ -32,7 +32,7 @@ add_executable(${PROJECT_NAME} main.cpp ${TESTS} ${EXT_HEADERS} ${EXT_SOURCES})
 
 target_link_libraries(${PROJECT_NAME} gtest gtest_main gmock pthread)
 
-# оценка покрытия кода тестами
+# Г®Г¶ГҐГ­ГЄГ  ГЇГ®ГЄГ°Г»ГІГЁГї ГЄГ®Г¤Г  ГІГҐГ±ГІГ Г¬ГЁ
 target_link_libraries(${PROJECT_NAME} gcov)
 target_link_libraries(${PROJECT_NAME} m)
 
@@ -45,3 +45,4 @@ gtest_add_tests(TARGET      ${PROJECT_NAME}
         TEST_SUFFIX .withArgs
         TEST_LIST   withArgsTests
         )
+	
